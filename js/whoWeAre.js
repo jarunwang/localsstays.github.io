@@ -570,7 +570,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -11661,7 +11661,7 @@
 	
 	exports.showWin = showWin;
 	
-	var parentUrl = '';
+	var parentUrl = '/locals-info-web/dist';
 	exports.parentUrl = parentUrl;
 
 /***/ }),
