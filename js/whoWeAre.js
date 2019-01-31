@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "27c917028c8ea47d030d"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8a534eaa685bca963934"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -570,7 +570,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/locals-info-web/dist/";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -620,7 +620,7 @@
 		let arr = [
 			{img:__webpack_require__(47),name:'Location selection& Design'}
 			,{img:__webpack_require__(48),name:'Property Construction'}
-			,{img:__webpack_require__(49),name:'MEntrustment Management'}
+			,{img:__webpack_require__(49),name:'Entrustment Management'}
 			,{img:__webpack_require__(50),name:'Supply Chains'}
 		]
 		
@@ -11661,7 +11661,7 @@
 	
 	exports.showWin = showWin;
 	
-	var parentUrl = '/locals-info-web/dist';
+	var parentUrl = '';
 	exports.parentUrl = parentUrl;
 
 /***/ }),
