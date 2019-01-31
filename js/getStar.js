@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "8a534eaa685bca963934"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "18f231da03659340ca40"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -570,7 +570,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -661,16 +661,16 @@
 	}
 	
 	function sendMsg(){
-		
-		$.get('')
+		let param = JSON.stringify({
+			"type": 100001,
+			"data": JSON.stringify(_data)
+		})
 		$.ajax({
 			type: "POST",
 			url: "https://i.localhome.cn/api/common/records",
-			data: {
-				"type": "100001",
-				"data": JSON.stringify(_data)
-			},
-			dataType: "json",
+			data: param,
+			contentType: 'application/json',
+			cacheControl: 'no-cache',
 			success: function(data){
 				if(data.success){
 					$("#modal_text").text("SEND SUCCESS！");
@@ -11815,7 +11815,7 @@
 	
 	exports.showWin = showWin;
 	
-	var parentUrl = '/locals-info-web/dist';
+	var parentUrl = '';
 	exports.parentUrl = parentUrl;
 
 /***/ }),
