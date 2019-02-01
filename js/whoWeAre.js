@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "18f231da03659340ca40"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "9c494ea3ba643f2537d0"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -22843,15 +22843,13 @@
 		  //setClass();
 	}();
 	
-	function jumurl(){
-		　　window.location.href = `${utils.parentUrl}/view/getStar.html`;
-	}
+	
 	
 	function buildHtml(){
 		let html = `<div class="warp bgBox">
 				<div class="swiper-container">
 			        <div class="swiper-wrapper slideBox">
-			            <a class="swiper-slide index_bg1" src="">&nbsp;</a>
+			            <div class="swiper-slide index_bg1">&nbsp;</div>
 			            <div class="swiper-slide index_bg2">&nbsp;</div>
 			            <div class="swiper-slide index_bg3">&nbsp;</div>
 			        </div>
@@ -22863,9 +22861,6 @@
 				<div class="swiper-pagination swiperPaginationBox"></div>
 			</div>`
 		 $(document.body).find('.content').eq(0).before(html)
-		 $(".slideBox").click(function(){
-				jumurl()
-			});
 	}
 	
 	function buildSwiper(){
