@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "9c494ea3ba643f2537d0"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1ab87fcc01016db3f0d5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -570,7 +570,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://jarunwang.github.io/localsstays.github.io/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -640,14 +640,22 @@
 		
 	}
 	
-	function showModal(){
+	function showModal(type=1){
 		$('.remodal-overlay').fadeIn()
-		$('.remodal-wrapper').fadeIn()
+		if(type != 2){
+			$('.remodal-wrapper').fadeIn()
+			$('.m-load').hide()
+		}else{
+			$('.m-load').fadeIn()
+		}
 	}
 	
-	function hideModal(){
+	function hideModal(type=1){
 		$('.remodal-overlay').fadeOut()
-		$('.remodal-wrapper').fadeOut()
+		if(type != 2){
+			$('.remodal-wrapper').fadeOut()
+		}
+		$('.m-load').fadeOut()
 	}
 	
 	function modalListen(){
@@ -665,6 +673,7 @@
 			"type": 100001,
 			"data": JSON.stringify(_data)
 		})
+		showModal(2);
 		$.ajax({
 			type: "POST",
 			url: "https://i.localhome.cn/api/common/records",
@@ -672,6 +681,7 @@
 			contentType: 'application/json',
 			cacheControl: 'no-cache',
 			success: function(data){
+				hideModal(2)
 				if(data.success){
 					$("#modal_text").text("SEND SUCCESS！");
 					showModal();
@@ -11814,7 +11824,7 @@
 	
 	exports.showWin = showWin;
 	
-	var parentUrl = '';
+	var parentUrl = 'https://jarunwang.github.io/localsstays.github.io';
 	exports.parentUrl = parentUrl;
 
 /***/ }),

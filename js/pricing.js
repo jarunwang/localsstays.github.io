@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "9c494ea3ba643f2537d0"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1ab87fcc01016db3f0d5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -570,7 +570,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://jarunwang.github.io/localsstays.github.io/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -11625,7 +11625,7 @@
 	
 	exports.showWin = showWin;
 	
-	var parentUrl = '';
+	var parentUrl = 'https://jarunwang.github.io/localsstays.github.io';
 	exports.parentUrl = parentUrl;
 
 /***/ }),
