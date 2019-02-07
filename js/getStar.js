@@ -570,7 +570,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/locals-info-web/dist/";
+/******/ 	__webpack_require__.p = "https://jarunwang.github.io/localsstays.github.io/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -11824,7 +11824,7 @@
 	
 	exports.showWin = showWin;
 	
-	var parentUrl = '/locals-info-web/dist';
+	var parentUrl = 'https://jarunwang.github.io/localsstays.github.io';
 	exports.parentUrl = parentUrl;
 
 /***/ }),
