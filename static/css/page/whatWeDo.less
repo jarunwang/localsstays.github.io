@@ -1,0 +1,161 @@
+.content_landlord{
+    height: 491px;
+    background: url(/static/img/landlords_bg.png) -117px -99px;
+    .common_content_title{
+         margin-top: 100px;
+    }
+    &_img{
+        width: 100%;
+        &_item{
+            padding-top: 10px;
+            width: 250px;
+            display: inline-block;
+            text-align: center;
+            img{
+                width:49px;
+                height:50px;
+            }
+            &_name{
+                margin-top:8px;
+                font-size:16px; /* no */
+                font-family:Futura-Medium;
+                font-weight:500;
+                color:#666666FF;
+            }
+        }
+    }
+}
+
+.content_comment{
+    height:527px;
+    background:rgba(247,247,247,1);
+    text-align: center;
+    >div{
+        background: url(/static/img/comma.png) no-repeat 127px 23px;
+    }
+    .common_content_title{
+        margin-top: 50px;
+    }
+    .common_left_btn,.common_right_btn{
+        top:44px
+    }
+    &_slide{
+        margin-top: 53px;  
+    }
+    &_tall{
+            &_content{
+                text-align: justify;
+                width: 927px;
+                height: 145px;
+                line-height: 24px; /* no */
+                margin: 0 auto;
+                color: #FFFFFF;
+                background: -webkit-linear-gradient(#F2A48C, #EA5260); /* Safari 5.1 - 6.0 */
+                background: -o-linear-gradient(#F2A48C, #EA5260); /* Opera 11.1 - 12.0 */
+                background: -moz-linear-gradient(#F2A48C, #EA5260); /* Firefox 3.6 - 15 */
+                background: linear-gradient(#F2A48C, #EA5260); /* 标准的语法 */
+               div{
+                   font-size: 16px; /* no */
+                   font-weight:500;
+                   padding: 30px 17px 0px 17px;
+                   text-align: justify;
+               }
+            }
+            &_thir{
+                   border-width: 20px 20px 0;
+                   border-style: solid;
+                   border-color: #eb525e transparent transparent;
+                   margin: 0 auto;
+                   width: 0px;
+                }
+            &_head{
+                position: relative;
+                overflow: hidden;
+                margin: 0 auto;
+                width:86px;
+                height:86px;
+                margin-top:14px; /* no */
+                border:2px solid #E84358;/* no */
+                border-radius:50%;
+                img{
+                    width: 100%;
+                    position: relative;
+                }
+            }
+            &_title{
+                margin: 0 auto;
+                top: 24px;
+                position: relative;
+                font-size: 18px; /* no */
+                font-family: Futura-Bold;
+                font-weight: bold;
+                color: rgba(51,51,51,1);
+            }
+            &_text{
+               margin: 0 auto;
+                top: 26px;
+                position: relative;
+                font-size: 18px; /* no */
+                font-family: Futura-Medium;
+                font-weight: 500;
+                color: rgba(153,153,153,1);
+            }
+        }
+}
+
+.content_care{
+    .common_content_title{
+        margin-top: 99px;
+    }
+    &_img{
+        vertical-align: top;
+        display: inline-block;
+        width:655px;
+        height:429px;
+        margin-right: 55px;
+        position: relative;
+        margin-top: 20px;
+        &:before{
+            content: "";
+            display: block;
+            background:rgba(232,67,88,1);
+            width:74px;
+            height:26px;
+            position: absolute;
+            right: -34px;
+            top: 89px;
+        }
+    }
+    &_box{
+        margin-top: 78px;
+    }
+    &_list{
+        display: inline-block;
+        width:410px;
+        float: right;
+        margin-bottom: 35px;
+        &_item{
+            text-align: left;
+            line-height: 33px;
+            padding: 13px 0px;
+            display: block;
+            border-bottom: 1px solid rgba(0,0,0,0.1); /* no */
+            .title{
+                font-size:18px; /* no */
+                font-family:Futura-Bold;
+                font-weight:bold;
+                color:rgba(51,51,51,1);
+            }
+            .content{
+                font-size:18px; /* no */
+                font-family:Futura-Medium;
+                font-weight:500;
+                color:rgba(153,153,153,1);
+            }
+            &:hover{
+                background: #fbfbfb;
+                cursor: pointer;
+            }
+        }
+    }
+}

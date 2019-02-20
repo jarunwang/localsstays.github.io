@@ -1,0 +1,726 @@
+.star_content_flow {
+  margin-top: 1.173333rem;
+}
+.star_content_flow .line {
+  width: 100%;
+  height: 1px;
+  background: #e6e6e6;
+  margin-bottom: 57px;
+  margin-top: -53px;
+}
+.star_content_flow .point {
+  width: 9.786667rem;
+  margin: 0 auto;
+}
+.star_content_flow .point span {
+  height: 0.933333rem;
+  width: 0.933333rem;
+  display: inline-block;
+  cursor: pointer;
+  background: #FFFFFF;
+}
+.star_content_flow .point span div {
+  height: 0.933333rem;
+  width: 0.933333rem;
+}
+.star_content_flow .point1 {
+  float: left;
+}
+.star_content_flow .point1 div {
+  background: url(/static/img/sprite/one.png) no-repeat center center;
+}
+.star_content_flow .point2 div {
+  background: url(/static/img/sprite/two2.png) no-repeat center center;
+}
+.star_content_flow .point2 > .active {
+  background: url(/static/img/sprite/two.png) no-repeat center center !important;
+}
+.star_content_flow .point3 {
+  float: right;
+}
+.star_content_flow .point3 div {
+  background: url(/static/img/sprite/three.png) no-repeat center center;
+}
+.star_content_flow .point3 > .active {
+  background: url(/static/img/sprite/three2.png) no-repeat center center !important;
+}
+.star_content_from {
+  background: #ffffff;
+  box-shadow: 0 0.04rem 0.76rem 0 rgba(232, 67, 88, 0.1);
+  margin-bottom: 0.666667rem;
+}
+.star_content_from .common_content_title {
+  padding-top: 0.906667rem;
+}
+.star_content_from .common_content_text {
+  padding-top: 0.213333rem;
+  padding-bottom: 0.6rem;
+}
+.star_content_from .common_content_btn {
+  margin-bottom: 0.44rem;
+}
+.star_content_from > .from {
+  margin-top: 0.52rem;
+  border: 0;
+  font-size: 16px;
+}
+.star_content_from > .from > div {
+  display: none;
+}
+.star_content_from > .from .one {
+  padding: 0 0.666667rem 0 0.666667rem;
+}
+.star_content_from > .from .active {
+  display: block!important;
+}
+.star_content_from > .from table {
+  width: 100%;
+}
+.star_content_from > .from td {
+  width: 33%;
+}
+.star_content_from > .from td .box {
+  border: 0.026667rem solid rgba(202, 202, 202, 0.4);
+  cursor: pointer;
+}
+.star_content_from > .from td .one_box {
+  height: 2.613333rem;
+}
+.star_content_from > .from td .one_box .icon img {
+  margin: 0.453333rem auto 0.173333rem auto;
+}
+.star_content_from > .from td .one_box .text {
+  font-family: Futura-Medium;
+  font-weight: 500;
+  color: #666666;
+}
+.star_content_from > .from td .two_box {
+  height: 0.533333rem;
+  width: 0.533333rem;
+}
+.star_content_from > .from td .two_box .num {
+  text-align: center;
+  line-height: 0.533333rem;
+  font-family: Futura-Medium;
+  font-weight: 500;
+  color: #666666;
+}
+.star_content_from > .from td .active {
+  border: 0.026667rem solid #ea5360;
+}
+.star_content_from > .from .two_table {
+  width: 2.666667rem;
+}
+.star_content_from > .from .studio_text {
+  font-size: 16px;
+  line-height: 45px;
+  vertical-align: top;
+  font-family: Futura-Medium;
+  font-weight: 500;
+  color: #666666;
+}
+
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+/* ==========================================================================
+   Remodal's necessary styles
+   ========================================================================== */
+/* Hide scroll bar */
+html.remodal-is-locked {
+  overflow: hidden;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+/* Anti FOUC */
+.remodal,
+[data-remodal-id] {
+  display: none;
+}
+/* Necessary styles of the overlay */
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -66.666667rem;
+  right: -66.666667rem;
+  bottom: -66.666667rem;
+  left: -66.666667rem;
+  display: none;
+}
+/* Necessary styles of the wrapper */
+.remodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  overflow: auto;
+  text-align: center;
+  -webkit-overflow-scrolling: touch;
+}
+.remodal-wrapper:after {
+  display: inline-block;
+  height: 100%;
+  margin-left: -0.05em;
+  content: "";
+}
+/* Fix iPad, iPhone glitches */
+.remodal-overlay,
+.remodal-wrapper {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+/* Necessary styles of the modal dialog */
+.remodal {
+  position: relative;
+  outline: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+.remodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block;
+}
+
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+/* ==========================================================================
+   Remodal's default mobile first theme
+   ========================================================================== */
+/* Default theme styles for the background */
+.remodal-bg.remodal-is-opening,
+.remodal-bg.remodal-is-opened {
+  -webkit-filter: blur(0.04rem);
+  filter: blur(0.04rem);
+}
+/* Default theme styles of the overlay */
+.remodal-overlay {
+  background: rgba(43, 46, 56, 0.9);
+}
+.remodal-overlay.remodal-is-opening,
+.remodal-overlay.remodal-is-closing {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.remodal-overlay.remodal-is-opening {
+  -webkit-animation-name: remodal-overlay-opening-keyframes;
+  animation-name: remodal-overlay-opening-keyframes;
+}
+.remodal-overlay.remodal-is-closing {
+  -webkit-animation-name: remodal-overlay-closing-keyframes;
+  animation-name: remodal-overlay-closing-keyframes;
+}
+/* Default theme styles of the wrapper */
+.remodal-wrapper {
+  padding: 0.133333rem 0.133333rem 0;
+}
+/* Default theme styles of the modal dialog */
+.remodal {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0.133333rem;
+  padding: 0.466667rem;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  color: #2b2e38;
+  background: #fff;
+}
+.remodal.remodal-is-opening,
+.remodal.remodal-is-closing {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.remodal.remodal-is-opening {
+  -webkit-animation-name: remodal-opening-keyframes;
+  animation-name: remodal-opening-keyframes;
+}
+.remodal.remodal-is-closing {
+  -webkit-animation-name: remodal-closing-keyframes;
+  animation-name: remodal-closing-keyframes;
+}
+/* Vertical align of the modal dialog */
+.remodal,
+.remodal-wrapper:after {
+  vertical-align: middle;
+}
+/* Close button */
+.remodal-close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: visible;
+  width: 0.466667rem;
+  height: 0.466667rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  text-decoration: none;
+  color: #95979c;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+.remodal-close:hover,
+.remodal-close:focus {
+  color: #2b2e38;
+}
+.remodal-close:before {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+  font-size: 0.333333rem;
+  line-height: 0.466667rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.466667rem;
+  content: "\D7";
+  text-align: center;
+}
+/* Dialog buttons */
+.remodal-confirm,
+.remodal-cancel {
+  font: inherit;
+  display: inline-block;
+  overflow: visible;
+  min-width: 1.466667rem;
+  margin: 0;
+  padding: 0.16rem 0;
+  cursor: pointer;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+}
+#model_text {
+  font-family: Futura-Bold;
+}
+.remodal-confirm {
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0.333333rem;
+  background: #E84358;
+  box-shadow: 0 0.04rem 0.133333rem #ef9ba5;
+}
+.remodal-confirm:hover,
+.remodal-confirm:focus {
+  background: #E84358;
+}
+.remodal-cancel {
+  color: #fff;
+  background: #e57373;
+}
+.remodal-cancel:hover,
+.remodal-cancel:focus {
+  background: #ef5350;
+}
+/* Remove inner padding and border in Firefox 4+ for the button tag. */
+.remodal-confirm::-moz-focus-inner,
+.remodal-cancel::-moz-focus-inner,
+.remodal-close::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+#modal_text {
+  font-family: Futura-Bold;
+  font-size: 16px;
+}
+/* Keyframes
+   ========================================================================== */
+@-webkit-keyframes remodal-opening-keyframes {
+  from {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
+@keyframes remodal-opening-keyframes {
+  from {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
+@-webkit-keyframes remodal-closing-keyframes {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    opacity: 0;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
+@keyframes remodal-closing-keyframes {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    opacity: 0;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+}
+@-webkit-keyframes remodal-overlay-opening-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes remodal-overlay-opening-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes remodal-overlay-closing-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes remodal-overlay-closing-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* Media queries
+   ========================================================================== */
+@media only screen and (min-width: 641px) {
+  .remodal {
+    max-width: 6.666667rem;
+    border-radius: 0.133333rem;
+  }
+}
+/* IE8
+   ========================================================================== */
+.lt-ie9 .remodal-overlay {
+  background: #2b2e38;
+}
+.lt-ie9 .remodal {
+  width: 9.333333rem;
+}
+
+.content_pricing {
+  text-align: center;
+  height: 8rem;
+}
+.content_pricing > div {
+  margin-top: 0.266667rem;
+  width: 5.666667rem;
+  display: inline-block;
+  padding: 0 0.666667rem;
+}
+.content_pricing_left_img {
+  width: 100%;
+  height: 2.293333rem;
+  background: url(/static/img/sprite/option1.png) top center no-repeat;
+}
+.content_pricing_right_img {
+  width: 100%;
+  height: 2.293333rem;
+  background: url(/static/img/sprite/option2.png) center no-repeat;
+}
+.content_pricing .content_pricing_text1 {
+  margin-top: 0.56rem;
+}
+.content_pricing .content_pricing_text2 {
+  margin-top: 0.573333rem;
+}
+.content_pricing .content_pricing_img {
+  margin-top: 0.4rem;
+}
+.content_pricing .content_pricing_btn {
+  margin-top: 0.306667rem;
+}
+
+.content_landlord {
+  height: 6.546667rem;
+  background: url(/static/img/landlords_bg.png) -1.56rem -1.32rem;
+}
+.content_landlord .common_content_title {
+  margin-top: 1.333333rem;
+}
+.content_landlord_img {
+  width: 100%;
+}
+.content_landlord_img_item {
+  padding-top: 0.133333rem;
+  width: 3.333333rem;
+  display: inline-block;
+  text-align: center;
+}
+.content_landlord_img_item img {
+  width: 0.653333rem;
+  height: 0.666667rem;
+}
+.content_landlord_img_item_name {
+  margin-top: 0.106667rem;
+  font-size: 16px;
+  font-family: Futura-Medium;
+  font-weight: 500;
+  color: #666666FF;
+}
+.content_comment {
+  height: 7.026667rem;
+  background: #f7f7f7;
+  text-align: center;
+}
+.content_comment > div {
+  background: url(/static/img/comma.png) no-repeat 1.693333rem 0.306667rem;
+}
+.content_comment .common_content_title {
+  margin-top: 0.666667rem;
+}
+.content_comment .common_left_btn,
+.content_comment .common_right_btn {
+  top: 0.586667rem;
+}
+.content_comment_slide {
+  margin-top: 0.706667rem;
+}
+.content_comment_tall_content {
+  text-align: justify;
+  width: 12.36rem;
+  height: 1.933333rem;
+  line-height: 24px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  background: -webkit-linear-gradient(#F2A48C, #EA5260);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#F2A48C, #EA5260);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#F2A48C, #EA5260);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(#F2A48C, #EA5260);
+  /* 标准的语法 */
+}
+.content_comment_tall_content div {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.4rem 0.226667rem 0 0.226667rem;
+  text-align: justify;
+}
+.content_comment_tall_thir {
+  border-width: 0.266667rem 0.266667rem 0;
+  border-style: solid;
+  border-color: #eb525e transparent transparent;
+  margin: 0 auto;
+  width: 0;
+}
+.content_comment_tall_head {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1.146667rem;
+  height: 1.146667rem;
+  margin-top: 14px;
+  border: 2px solid #E84358;
+  border-radius: 50%;
+}
+.content_comment_tall_head img {
+  width: 100%;
+  position: relative;
+}
+.content_comment_tall_title {
+  margin: 0 auto;
+  top: 0.32rem;
+  position: relative;
+  font-size: 18px;
+  font-family: Futura-Bold;
+  font-weight: bold;
+  color: #333333;
+}
+.content_comment_tall_text {
+  margin: 0 auto;
+  top: 0.346667rem;
+  position: relative;
+  font-size: 18px;
+  font-family: Futura-Medium;
+  font-weight: 500;
+  color: #999999;
+}
+.content_care .common_content_title {
+  margin-top: 1.32rem;
+}
+.content_care_img {
+  vertical-align: top;
+  display: inline-block;
+  width: 8.733333rem;
+  height: 5.72rem;
+  margin-right: 0.733333rem;
+  position: relative;
+  margin-top: 0.266667rem;
+}
+.content_care_img:before {
+  content: "";
+  display: block;
+  background: #e84358;
+  width: 0.986667rem;
+  height: 0.346667rem;
+  position: absolute;
+  right: -0.453333rem;
+  top: 1.186667rem;
+}
+.content_care_box {
+  margin-top: 1.04rem;
+}
+.content_care_list {
+  display: inline-block;
+  width: 5.466667rem;
+  float: right;
+  margin-bottom: 0.466667rem;
+}
+.content_care_list_item {
+  text-align: left;
+  line-height: 0.44rem;
+  padding: 0.173333rem 0;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.content_care_list_item .title {
+  font-size: 18px;
+  font-family: Futura-Bold;
+  font-weight: bold;
+  color: #333333;
+}
+.content_care_list_item .content {
+  font-size: 18px;
+  font-family: Futura-Medium;
+  font-weight: 500;
+  color: #999999;
+}
+.content_care_list_item:hover {
+  background: #fbfbfb;
+  cursor: pointer;
+}
+
+.who_content_locals {
+  height: 11.026667rem;
+  background: url(/static/img/localsprofile.png) no-repeat right 2.373333rem;
+}
+.who_content_locals_title {
+  padding-top: 0;
+}
+.who_content_locals_text {
+  width: 8.266667rem;
+  margin-top: 1.213333rem;
+}
+.content_financing .common_content_text {
+  margin-top: 0.866667rem;
+  margin-bottom: 0.666667rem;
+}
+.content_financing_img {
+  width: 100%;
+  position: relative;
+}
+.content_financing_img_item {
+  display: inline-block;
+}
+.content_financing_img_item img {
+  width: 3.6rem;
+}
+.content_financing_img_item_name {
+  margin-top: 0.293333rem;
+  font-size: 18px;
+  font-family: "Futura-Bold";
+  font-weight: bold;
+  color: #333333;
+}
+.content_size {
+  margin-top: 1.173333rem;
+  height: 4rem;
+  width: 100%;
+  background: url(/static/img/bg.png) center top;
+}
+.content_size .common_content_title {
+  padding-top: 1.04rem;
+  color: #fff;
+}
+.content_size .common_content_text {
+  margin-top: 0.426667rem;
+  width: 8.013333rem;
+  color: #fff;
+}
+.content_company {
+  margin-top: 0.866667rem;
+}
+.content_company .common_content_text {
+  margin-top: 0.866667rem;
+}
+.content_company_img {
+  padding-bottom: 0.666667rem;
+  width: 100%;
+}
+.content_company_img_item {
+  padding-top: 0.853333rem;
+  width: 3.866667rem;
+  display: inline-block;
+  text-align: center;
+}
+.content_company_img_item img {
+  width: 0.653333rem;
+  height: 0.666667rem;
+}
+.content_company_img_item_name {
+  margin-top: 0.24rem;
+  font-size: 16px;
+  font-family: Futura-Medium;
+  font-weight: 500;
+  color: #666666FF;
+}
+

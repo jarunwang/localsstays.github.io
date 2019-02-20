@@ -1,0 +1,131 @@
+.star_content_flow{
+    margin-top: 88px; 
+    .line{
+        width: 100%;
+        height: 1px; /* no */
+        background:#e6e6e6;
+        margin-bottom: 57px; /* no */
+        margin-top: -53px; /* no */
+    }
+    .point{
+        width: 734px;
+        margin: 0px auto;
+        span{
+            height: 70px;
+            width: 70px;
+            display: inline-block;
+            cursor: pointer;
+            background: #FFFFFF;
+            div{
+               height: 70px;
+               width: 70px; 
+            }
+        }
+        &1{
+            float: left;
+            div{
+                background: url(/static/img/sprite/one.png) no-repeat center center;  
+            }
+        }
+        &2{
+           div{
+                background: url(/static/img/sprite/two2.png) no-repeat center center;
+            }
+            >.active{
+                background: url(/static/img/sprite/two.png) no-repeat center center!important;
+            } 
+        }
+        &3{
+            float: right;
+            div{
+               background: url(/static/img/sprite/three.png) no-repeat center center;
+            }
+            >.active{
+                background: url(/static/img/sprite/three2.png) no-repeat center center!important;
+            } 
+        }
+    }
+}
+
+.star_content_from{
+    background:rgba(255,255,255,1);
+    box-shadow:0px 3px 57px 0px rgba(232,67,88,0.1);
+    margin-bottom: 50px;
+    .common_content_title{
+        padding-top: 68px;
+    }
+    .common_content_text{
+         padding-top: 16px;
+         padding-bottom: 45px;
+    }
+    .common_content_btn{
+        margin-bottom: 33px;
+    }
+    >.from{
+        margin-top: 39px;
+        border: 0;
+        font-size:16px; /* no */
+        >div{
+            display: none;
+        }
+        .one{
+           padding: 0 50px 0px 50px;
+        }
+        .active{
+            display: block!important;
+        }
+        table{
+             width: 100%;
+        }
+        td{
+            width:33%;
+            .box{
+                border: 2px solid rgba(202, 202, 202, 0.4);
+                cursor: pointer;
+            }
+            .one_box{
+                 height: 196px;
+                 .icon{
+                    img{
+                        margin: 34px auto 13px auto;
+                    }
+                  }
+                  .text{
+                    font-family:Futura-Medium;
+                    font-weight:500;
+                    color:rgba(102,102,102,1);
+                  }
+            }
+            .two_box{
+                height: 40px;
+                width: 40px;
+                .num{
+                    text-align: center;
+                    line-height: 40px;
+                    font-family:Futura-Medium;
+                    font-weight:500;
+                    color:rgba(102,102,102,1);
+                }
+            }
+            .active{
+                border:2px solid rgba(234,83,96,1);
+            }
+        }
+        
+        .two_table{
+            width:200px
+        }
+        
+        .studio{
+            &_text{
+                font-size:16px; /* no */
+                line-height: 45px; /* no */
+                vertical-align: top;
+                font-family:Futura-Medium;
+                font-weight:500;
+                color:rgba(102,102,102,1);
+            }
+        }
+    }
+}
+
