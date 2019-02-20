@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/app.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -4483,7 +4483,7 @@ function () {
       var newData = (0, _assign.default)({}, data, {
         Component: Component
       });
-      this.components[route] = newData; // pages/_app.js updated
+      this.components[route] = newData; // pages/app.js updated
 
       if (route === '/_app') {
         this.notify(this.components[this.route]);
@@ -5386,11 +5386,11 @@ exports.loadGetInitialProps = loadGetInitialProps;
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/_app", function() {
-      var page = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
+      var page = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/app.js")
       if(true) {
-        module.hot.accept(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js", function() {
+        module.hot.accept(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/app.js", function() {
           if(!next.router.components["/_app"]) return
-          var updatedPage = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
+          var updatedPage = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/app.js")
           next.router.update("/_app", updatedPage.default || updatedPage)
         })
       }
@@ -5654,9 +5654,9 @@ exports.default = withRouter;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_app.js":
+/***/ "./node_modules/next/dist/pages/app.js":
 /*!**********************************************!*\
-  !*** ./node_modules/next/dist/pages/_app.js ***!
+  !*** ./node_modules/next/dist/pages/app.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9277,4 +9277,4 @@ module.exports = dll_ce267202ee8be2590427;
 /***/ })
 
 },[["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app!./","static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=_app.js.map
+//# sourceMappingURL=app.js.map

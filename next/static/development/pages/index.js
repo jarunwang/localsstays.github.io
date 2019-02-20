@@ -7028,7 +7028,7 @@ function () {
       var newData = (0, _assign.default)({}, data, {
         Component: Component
       });
-      this.components[route] = newData; // pages/_app.js updated
+      this.components[route] = newData; // pages/app.js updated
 
       if (route === '/_app') {
         this.notify(this.components[this.route]);
