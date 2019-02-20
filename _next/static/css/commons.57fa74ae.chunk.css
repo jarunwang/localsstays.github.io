@@ -6,7 +6,7 @@
 }
 .index_content_locals {
   height: 8.426667rem;
-  background: url(/static/img/index_pic.png) no-repeat right 0.533333rem;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/index_pic.png) no-repeat right 0.533333rem;
 }
 .index_content_locals_title {
   padding-top: 0.933333rem;
@@ -752,7 +752,7 @@ body {
 .top-logo {
   width: 0.533333rem;
   height: 0.533333rem;
-  background: url(/static/img/logo.png) no-repeat center !important;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/logo.png) no-repeat center !important;
 }
 .top-nav-bar {
   text-align: center;
@@ -870,7 +870,7 @@ body {
   width: 13px;
   display: inline-block;
   margin: 0 7px;
-  background: url(/static/img/line.png) center no-repeat;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/line.png) center no-repeat;
 }
 .footer .footer-in p a:hover {
   text-decoration: underline;
@@ -881,7 +881,7 @@ body {
   position: absolute;
   top: 17px;
   right: 0px;
-  background: url(/static/img/code.png) center no-repeat;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/code.png) center no-repeat;
 }
 .footer .footer-title {
   line-height: 54px;
@@ -976,7 +976,7 @@ body {
   background-size: 19.2rem 7.733333rem !important;
 }
 .index_mini_bg1 {
-  background: url(/static/img/01pic.png) no-repeat !important;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/01pic.png) no-repeat !important;
   background-size: 100% 100%!important;
 }
 .index_bg2 {
@@ -984,7 +984,7 @@ body {
   background-size: 19.2rem 7.733333rem !important;
 }
 .index_mini_bg2 {
-  background: url(/static/img/02pic.png) no-repeat !important;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/02pic.png) no-repeat !important;
   background-size: 100% 100%!important;
 }
 .index_bg3 {
@@ -992,7 +992,7 @@ body {
   background-size: 19.2rem 7.733333rem !important;
 }
 .index_mini_bg3 {
-  background: url(/static/img/03pic.png) no-repeat !important;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/03pic.png) no-repeat !important;
   background-size: 100% 100%!important;
 }
 .swiper-container {
@@ -1056,7 +1056,7 @@ body {
   cursor: pointer;
   border: 2px solid #bfbfbf;
   border-radius: 50%;
-  background: url(/static/img/sprite/left.png) no-repeat center center;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/left.png) no-repeat center center;
 }
 .common_left_btn .circleProgress:hover {
   animation: circleProgressLoad_right 5s infinite linear;
@@ -1074,7 +1074,7 @@ body {
   cursor: pointer;
   border: 2px solid #bfbfbf;
   border-radius: 50%;
-  background: url(/static/img/sprite/right.png) no-repeat center center;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/right.png) no-repeat center center;
 }
 .common_right_btn .circleProgress:hover {
   animation: circleProgressLoad_right 0.5s infinite linear;

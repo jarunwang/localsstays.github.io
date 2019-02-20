@@ -51,10 +51,10 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "footer-title"
       }, "Travel like a local \uFF0CWe are locals"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "/static/img/sprite/tel.png",
+        src: "https://jarunwang.github.io/localsstays.github.io/static/img/sprite/tel.png",
         className: "footer-phone"
       }), "Tel\uFF1A4009999270", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "/static/img/sprite/location.png",
+        src: "https://jarunwang.github.io/localsstays.github.io/static/img/sprite/location.png",
         className: "footer-location"
       }), "Guangzhou, China", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "footer-right-box"
@@ -20114,49 +20114,49 @@ function (_React$Component) {
     _this2 = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Index).call(this, props));
     _this2.state = {
       city: [{
-        img: "/static/img/montreal.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/montreal.png",
         name: 'America'
       }, {
-        img: "/static/img/toronto.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/toronto.png",
         name: 'America'
       }, {
-        img: "/static/img/vancouver.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/vancouver.png",
         name: 'America'
       }, {
-        img: "/static/img/okland.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/okland.png",
         name: 'America'
       }, {
-        img: "/static/img/Bangkok.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/Bangkok.png",
         name: 'Thailand'
       }, {
-        img: "/static/img/Pattaya.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/Pattaya.png",
         name: 'Thailand'
       }, {
-        img: "/static/img/ChangMai.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/ChangMai.png",
         name: 'Thailand'
       }, {
-        img: "/static/img/Phuket.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/Phuket.png",
         name: 'Thailand'
       }, {
-        img: "/static/img/beijing.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/beijing.png",
         name: 'China'
       }, {
-        img: "/static/img/shanghai.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/shanghai.png",
         name: 'China'
       }, {
-        img: "/static/img/guangzhou.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/guangzhou.png",
         name: 'China'
       }, {
-        img: "/static/img/shenzhen.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/shenzhen.png",
         name: 'China'
       }, {
-        img: "/static/img/Tokyo.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/Tokyo.png",
         name: 'Japan'
       }, {
-        img: "/static/img/Osaka.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/Osaka.png",
         name: 'Japan'
       }, {
-        img: "/static/img/Hokkaido.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/Hokkaido.png",
         name: 'Japan'
       }],
       active: {

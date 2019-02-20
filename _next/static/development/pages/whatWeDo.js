@@ -51,10 +51,10 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "footer-title"
       }, "Travel like a local \uFF0CWe are locals"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "/static/img/sprite/tel.png",
+        src: "https://jarunwang.github.io/localsstays.github.io/static/img/sprite/tel.png",
         className: "footer-phone"
       }), "Tel\uFF1A4009999270", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "/static/img/sprite/location.png",
+        src: "https://jarunwang.github.io/localsstays.github.io/static/img/sprite/location.png",
         className: "footer-location"
       }), "Guangzhou, China", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "footer-right-box"
@@ -20115,57 +20115,57 @@ function (_React$Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(WhatWeDo).call(this, props));
     _this.state = {
       careArr: [{
-        img: "/static/img/1.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/1.png",
         title: 'Profile & Listing',
         content: 'Stand-out listings created across all the best channels'
       }, {
-        img: "/static/img/2.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/2.png",
         title: 'Professional Photography',
         content: 'Professional Photography'
       }, {
-        img: "/static/img/3.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/3.png",
         title: 'Guest Relations',
         content: '24/7 guest support and callout service'
       }, {
-        img: "/static/img/4.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/4.png",
         title: 'Daily Pricing',
         content: 'Daily pricing review for yield maximization'
       }, {
-        img: "/static/img/5.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/5.png",
         title: 'Interior Design',
         content: 'Interior design service'
       }, {
-        img: "/static/img/6.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/6.png",
         title: 'Housekeeping',
         content: '5-star housekeeping and linen'
       }, {
-        img: "/static/img/7.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/7.png",
         title: 'Maintenance',
         content: 'Quickly resolving maintenance issues'
       }, {
-        img: "/static/img/8.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/8.png",
         title: '24/7 key Exchange',
         content: 'In-person meet & greets, warmly welcoming guests to your home'
       }],
       commentsMsgArr: [{
         msg: 'Locals is awesome! I travel a lot for work. As a result my flat just sits there for months out of the year. It always seem like such a waste. With Locals I’m able to rent my home on Airbnb and they take care all the work. With the money they made me I was able to take a trip last year to Africa. That’s always been my dream and Locals help me get there. Thanks Locals.',
-        img: "/static/img/man.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/man.png",
         title: 'SD',
         content: 'Hosting Since 2018'
       }, {
         msg: 'Locals has done a remarkable job. The occupancy levels are high and the rates per night excellent. They go out of their way to make the life of the property owner easier.',
-        img: "/static/img/man2.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/man2.png",
         title: 'Matt',
         content: 'Hosting Since 2018'
       }],
       landlordsImg: [{
-        img: "/static/img/sprite/icon5.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/sprite/icon5.png",
         name: 'Yield maximization With our superior Pricing strategy'
       }, {
-        img: "/static/img/sprite/icon6.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/sprite/icon6.png",
         name: 'Total peace of mind Insurance and all maintenance managed'
       }, {
-        img: "/static/img/sprite/icon7.png",
+        img: "https://jarunwang.github.io/localsstays.github.io/static/img/sprite/icon7.png",
         name: 'Maximised visibility of your listing, managed by us across 15+ channels'
       }],
       activeCare: 0,

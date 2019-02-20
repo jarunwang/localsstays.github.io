@@ -27,22 +27,22 @@
   float: left;
 }
 .star_content_flow .point1 div {
-  background: url(/static/img/sprite/one.png) no-repeat center center;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/one.png) no-repeat center center;
 }
 .star_content_flow .point2 div {
-  background: url(/static/img/sprite/two2.png) no-repeat center center;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/two2.png) no-repeat center center;
 }
 .star_content_flow .point2 > .active {
-  background: url(/static/img/sprite/two.png) no-repeat center center !important;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/two.png) no-repeat center center !important;
 }
 .star_content_flow .point3 {
   float: right;
 }
 .star_content_flow .point3 div {
-  background: url(/static/img/sprite/three.png) no-repeat center center;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/three.png) no-repeat center center;
 }
 .star_content_flow .point3 > .active {
-  background: url(/static/img/sprite/three2.png) no-repeat center center !important;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/three2.png) no-repeat center center !important;
 }
 .star_content_from {
   background: #ffffff;
@@ -468,12 +468,12 @@ html.remodal-is-locked {
 .content_pricing_left_img {
   width: 100%;
   height: 2.293333rem;
-  background: url(/static/img/sprite/option1.png) top center no-repeat;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/option1.png) top center no-repeat;
 }
 .content_pricing_right_img {
   width: 100%;
   height: 2.293333rem;
-  background: url(/static/img/sprite/option2.png) center no-repeat;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/sprite/option2.png) center no-repeat;
 }
 .content_pricing .content_pricing_text1 {
   margin-top: 0.56rem;
@@ -490,7 +490,7 @@ html.remodal-is-locked {
 
 .content_landlord {
   height: 6.546667rem;
-  background: url(/static/img/landlords_bg.png) -1.56rem -1.32rem;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/landlords_bg.png) -1.56rem -1.32rem;
 }
 .content_landlord .common_content_title {
   margin-top: 1.333333rem;
@@ -521,7 +521,7 @@ html.remodal-is-locked {
   text-align: center;
 }
 .content_comment > div {
-  background: url(/static/img/comma.png) no-repeat 1.693333rem 0.306667rem;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/comma.png) no-repeat 1.693333rem 0.306667rem;
 }
 .content_comment .common_content_title {
   margin-top: 0.666667rem;
@@ -651,7 +651,7 @@ html.remodal-is-locked {
 
 .who_content_locals {
   height: 11.026667rem;
-  background: url(/static/img/localsprofile.png) no-repeat right 2.373333rem;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/localsprofile.png) no-repeat right 2.373333rem;
 }
 .who_content_locals_title {
   padding-top: 0;
@@ -685,7 +685,7 @@ html.remodal-is-locked {
   margin-top: 1.173333rem;
   height: 4rem;
   width: 100%;
-  background: url(/static/img/bg.png) center top;
+  background: url(https://jarunwang.github.io/localsstays.github.io/static/img/bg.png) center top;
 }
 .content_size .common_content_title {
   padding-top: 1.04rem;
