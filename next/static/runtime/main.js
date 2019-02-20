@@ -7963,7 +7963,7 @@ function connect(options) {
         colNumber = _ref.colNumber;
     // Resolve invalid paths coming from react-error-overlay
     var resolvedFilename = fileName.replace(/^webpack:\/\//, '');
-    unfetch_1.default('https://jarunwang.github.io/localsstays.github.io/_next/development/open-stack-frame-in-editor' + "?fileName=".concat(window.encodeURIComponent(resolvedFilename)) + "&lineNumber=".concat(lineNumber || 1) + "&colNumber=".concat(colNumber || 1));
+    unfetch_1.default('https://jarunwang.github.io/localsstays.github.io/next/development/open-stack-frame-in-editor' + "?fileName=".concat(window.encodeURIComponent(resolvedFilename)) + "&lineNumber=".concat(lineNumber || 1) + "&colNumber=".concat(colNumber || 1));
   }); // We need to keep track of if there has been a runtime error.
   // Essentially, we cannot guarantee application state was not corrupted by the
   // runtime error. To prevent confusing behavior, we forcibly reload the entire
@@ -8532,7 +8532,7 @@ var props = data.props,
 var prefix = assetPrefix || ''; // With dynamic assetPrefix it's no longer possible to set assetPrefix at the build time
 // So, this is how we do it in the client side at runtime
 
-__webpack_require__.p = "".concat(prefix, "https://jarunwang.github.io/localsstays.github.io/_next/"); //eslint-disable-line
+__webpack_require__.p = "".concat(prefix, "https://jarunwang.github.io/localsstays.github.io/next/"); //eslint-disable-line
 // Initialize next/config with the environment configuration
 
 envConfig.setConfig({
@@ -9130,7 +9130,7 @@ function () {
                                   switch (_context.prev = _context.next) {
                                     case 0:
                                       _context.next = 2;
-                                      return unfetch_1.default("".concat(assetPrefix, "https://jarunwang.github.io/localsstays.github.io/_next/on-demand-entries-ping")).then(function (res) {
+                                      return unfetch_1.default("".concat(assetPrefix, "https://jarunwang.github.io/localsstays.github.io/next/on-demand-entries-ping")).then(function (res) {
                                         return res.status === 200 && location.reload();
                                       }).catch(function () {});
 
@@ -9375,7 +9375,7 @@ function () {
       route = this.normalizeRoute(route);
       var scriptRoute = route === '/' ? '/index.js' : "".concat(route, ".js");
       var script = document.createElement('script');
-      var url = "".concat(this.assetPrefix, "https://jarunwang.github.io/localsstays.github.io/_next/static/").concat(encodeURIComponent(this.buildId), "/pages").concat(scriptRoute);
+      var url = "".concat(this.assetPrefix, "https://jarunwang.github.io/localsstays.github.io/next/static/").concat(encodeURIComponent(this.buildId), "/pages").concat(scriptRoute);
       script.crossOrigin = undefined;
       script.src = url;
 
@@ -9490,7 +9490,7 @@ function () {
                 link = document.createElement('link');
                 link.rel = 'preload';
                 link.crossOrigin = undefined;
-                link.href = "".concat(this.assetPrefix, "https://jarunwang.github.io/localsstays.github.io/_next/static/").concat(encodeURIComponent(this.buildId), "/pages").concat(scriptRoute);
+                link.href = "".concat(this.assetPrefix, "https://jarunwang.github.io/localsstays.github.io/next/static/").concat(encodeURIComponent(this.buildId), "/pages").concat(scriptRoute);
                 link.as = 'script';
                 document.head.appendChild(link);
                 return _context.abrupt("return");
@@ -9753,7 +9753,7 @@ function rewriteTraceLine(trace, distDir) {
   }
 
   var filename = m[1];
-  var filenameLink = filename.replace(distDir, 'https://jarunwang.github.io/localsstays.github.io/_next/development').replace(/\\/g, '/');
+  var filenameLink = filename.replace(distDir, 'https://jarunwang.github.io/localsstays.github.io/next/development').replace(/\\/g, '/');
   trace = trace.replace(filename, filenameLink);
   return trace;
 }
@@ -9791,7 +9791,7 @@ var hot_dev_client_1 = __importDefault(__webpack_require__(/*! ./dev-error-overl
 exports.default = function (_ref) {
   var assetPrefix = _ref.assetPrefix;
   var options = {
-    path: "".concat(assetPrefix, "https://jarunwang.github.io/localsstays.github.io/_next/webpack-hmr")
+    path: "".concat(assetPrefix, "https://jarunwang.github.io/localsstays.github.io/next/webpack-hmr")
   };
   var devClient = hot_dev_client_1.default(options);
   devClient.subscribeToHmrEvent(function (obj) {
